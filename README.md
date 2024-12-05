@@ -14,4 +14,40 @@ This classification problem deals with a heavily imbalance dataset, the number o
 
 ## Project requirements
 I worked with Python for this Marchine Learning for User Classification project, wher you´ll need to prepare the following libraries:
-  #pandas
+ •	Pandas
+ •	matplotlib
+ •	statsmodels
+ •	scikit-learn
+ •	numpy
+ •	seaborn
+
+ ## Project files
+ •	ml_datasource.csv - the file contains the database for the project.
+ •	Machine Learning Project.ipynb - the notebook contains a skeleton of the project for each task.
+
+
+ ## Project content
+ •	2 Project files
+ •	Part 1: Data Preprocessing
+ •	Part 2: Creating a Logistic Regression Model
+ •	Part 3: Creating a K-Nearest Neighbors Model
+ •	Part 4: Creating a Support Vector Machines Model
+ •	Part 5: Creating a Decision Trees Model
+ •	Part 6: Creating a Random Forests Model
+ •	Part 7: Results Interpretation
+ 
+ ## Results Interpretation
+
+ I asked the following questions, for the interpretation task:
+   1. What is the LLR (Log Likehood Ratio) p-value in the summary of the logistic regression model, and what does it tell us?
+      The LLR p-value is a statistic used to test if a logistic regression model iis "useless", i.e., statistically different from a model with no predictors. The p-value we obtained for the model is 0.000, samller than 0.050, which indicates that our model is     
+      statistically significant. 
+   2. What is the equation of the logit model, considering only statistically significant variables?
+      Statistically insignificant variables are those with a p-value equal to or larger than 0.05. The only such variable is x4, corresponding to practice_exams_passed, with a p-value of 0.270.
+   3. Which are the features that influence the decision in the decision tree model?
+      The decision tree shows that the only features influencing the decision are days_on_platform and minutes_watched. The boxes where these features appear are highlighted in the figure below.
+   4. What observations and conclusions can you make on the confusion matrices? Does the accuracy of the model determine its predictive power?
+      
+   5. How can we use the results from the models?
+   6. What actions can w undertake to improve the models?
+ 
